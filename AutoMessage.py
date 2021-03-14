@@ -4,8 +4,6 @@ import os
 import time
 import datetime
 
-#        Nzg0NjM3ODUwMDk1NDUyMTky.YE36cg.eCZZSTqdhw4CnWBIioypW4MnJ_g
-
 while True:
   if datetime.datetime.now().hour % 2 == 0: # Set time ammount (hour , minute , second) change "2" to number of time to send
     payload = {
