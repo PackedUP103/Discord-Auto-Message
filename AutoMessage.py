@@ -14,7 +14,7 @@ while True:
       'authorization': 'TOKEN' # Account Token #
     }
     
-    r = requests.post("https://discord.com/api/v8/channels/ID/messages", # Replace "ID" with your channel ID to send in                      data=payload, headers=header )
+    r = requests.post("https://discord.com/api/v8/channels/ID/messages", data=payload, headers=header) # Replace ID in string to your channel ID to send the messages in, do not change string only ID
     time.sleep(60) # Dont change this
 
 # Script will repeat
